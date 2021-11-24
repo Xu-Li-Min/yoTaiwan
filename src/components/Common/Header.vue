@@ -36,22 +36,22 @@
                         </li>
                         <li>
                             <a href="#" class="!p-0 hover:text-red-600">
-                                <DivingIcon />觀光景點
+                                <TempleIcon />古蹟巡禮
                             </a>
                         </li>
                         <li>
                             <a href="#" class="!p-0 hover:text-red-600">
-                                <DivingIcon />觀光景點
+                                <OnsenIcon />溫泉療癒
                             </a>
                         </li>
                         <li>
                             <a href="#" class="!p-0 hover:text-red-600">
-                                <DivingIcon />觀光景點
+                                <DivingIcon />海洋探索
                             </a>
                         </li>
                         <li>
                             <a href="#" class="!p-0 hover:text-red-600">
-                                <DivingIcon />觀光景點
+                                <BookIcon />知性之旅
                             </a>
                         </li>
                     </ul>
@@ -65,16 +65,23 @@
 
 <script>
 import CampingIcon from '../Icons/Camping.vue'
+import BookIcon from '../Icons/Book.vue'
 import DivingIcon from '../Icons/Diving.vue'
-import DivingIcon from '../Icons/Diving.vue'
-import DivingIcon from '../Icons/Diving.vue'
-import DivingIcon from '../Icons/Diving.vue'
+import OnsenIcon from '../Icons/Onsen.vue'
+import TempleIcon from '../Icons/Temple.vue'
+import VectorIcon from '../Icons/Vector.vue'
+import BusIcon from '../Icons/Bus.vue'
 
 export default {
     name: 'Header',
     components: {
         CampingIcon,
-        DivingIcon
+        BookIcon,
+        DivingIcon,
+        OnsenIcon,
+        TempleIcon,
+        VectorIcon,
+        BusIcon
     }
 }
 </script>
